@@ -78,7 +78,7 @@ body {
     width: 200px;
 }
 
-.game-title {
+.game-title, .play-btn-text {
     color: #FF42A5;
 }
 
@@ -194,16 +194,17 @@ body {
 
  
 }
-.play-button{
+.play-now{
  position: absolute;
-
-  background-color: #FFF;
-  padding: 10px 15px 10px 20px;
- 
   left: 130px;
   top: 170px;
 }
 
+.play-button{
+    background-color: #FFF;
+    border-radius: 100px;
+    padding: 10px 0px 10px 30px;
+}
 
 
 

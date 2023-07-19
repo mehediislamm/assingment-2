@@ -1,0 +1,478 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;0,700;0,800;1,300;1,800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    min-height: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo-container {
+    border: 1px green;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-items-container {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-items-container:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.nav-items-container li {
+    list-style: none;
+}
+
+.youtube {
+    color: red;
+}
+
+.tik-tok {
+    color: #0B0223;
+}
+
+.list-style {
+    padding: 10px 30px 10px 20px;
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.logo-container img {
+
+    width: 80px;
+    height: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+
+
+
+}
+
+.logo-container p {
+
+    font-size: 45px;
+    width: 200px;
+}
+
+.game-title {
+    color: #FF42A5;
+}
+
+/* nav design end */
+
+
+/* banner style start */
+.banner-container {
+
+    margin: 0px auto;
+    max-width: 1300px;
+    min-width: 50%;
+    display: flex;
+
+
+
+}
+
+.banner-text {
+
+    width: 50%;
+    background-image: url("./B8A2-Gamer-Zone-main/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-align: center;
+
+}
+
+.text-title {
+    color: #0B0223;
+    font-size: 20px;
+    margin: 150px 0px 0px 0px;
+    text-transform: uppercase;
+
+}
+
+.banner-text h4 {
+    font-size: 40px;
+    color: #F948B2;
+
+    margin: 0px;
+
+
+}
+
+.banner-text p {
+    color: #534C64;
+    font-size: 10px;
+
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 650px;
+    height: 440px;
+}
+
+.btn-title {
+    color: #FFF;
+    font-size: 10px;
+    padding: 5px;
+    background-color: #F948B2;
+    border-radius: 8px;
+    border: 0px;
+}
+
+
+
+/* banner style end */
+
+/* main section style start */
+.main-container {
+    margin: 40px auto;
+    max-width: 1300px;
+    min-width: 50%;
+
+}
+
+.main-text {
+
+    text-align: center;
+}
+
+.main-card {
+    border: 1px salmon;
+    display: grid;
+    max-width: 1300px;
+    margin: 10px auto;
+    min-height: 300px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.paragraph-title {
+    color: #534C64;
+    font-size: 10px;
+
+}
+
+.product {
+    width: 100%;
+
+}
+
+.product img {
+    width: 300px;
+    height: 350px;
+}
+.product.play{
+ position: relative;
+
+ 
+}
+.play-button{
+ position: absolute;
+
+  background-color: #FFF;
+  padding: 10px 15px 10px 20px;
+ 
+  left: 130px;
+  top: 170px;
+}
+
+
+
+
+/* main section style end */
+
+/* animation section start here */
+.main-section {
+    max-width: 1000px;
+    margin: 30px auto;
+    min-height: 70%;
+    display: flex;
+    
+}
+
+.main-section-text {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.main-section-img {
+    width: 50%;
+}
+
+.img-box-1 {
+
+    position: absolute;
+    margin-left: 50px;
+}
+
+.img-box-1,
+.img-1 {
+    width: 300px;
+    height: auto;
+}
+
+.img-box-2 {
+    position: relative;
+    bottom: 3px;
+
+}
+
+.img-box-2,
+.img-2 {
+    width: 100px;
+    height: auto;
+    top: 250px;
+}
+
+
+/* animation section end here */
+
+
+
+/* logo section start here */
+.ligo-section {
+
+    max-width: 1300px;
+    margin: 80px auto;
+    padding: 80px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: grid;
+    min-height: 50%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+}
+
+
+
+  .logo-box:hover {
+    border: 1px solid pink;
+  }
+  .logo-box:hover p {
+    color:red;
+  }
+
+
+.logo-box img {
+    width: 30px;
+    height: auto;
+    object-fit: cover;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/* logo section end here */
+
+
+/* footer style start */
+.main-footer {
+    border: 1px solid red;
+    
+    min-height: 50%;
+    
+    background:  #0B0223;
+    text-align: center;
+
+}
+
+.footer-text {
+    font-size: 45px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 700px;
+}
+
+.footer-text img {
+    width: 80px;
+    height: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.game-title {
+    align-items: center;
+}
+
+.title-style {
+    color: #FFF;
+}
+
+.item-1 {
+    color: #FFF;
+   display: grid;
+   justify-content: center;
+   grid-template-columns: repeat(6, 0.1fr);
+    
+    
+    padding-bottom: 20px;
+
+}
+
+.item-1,
+.item-2 li {
+    list-style: none;
+
+}
+
+.item-2 {
+    color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    
+    justify-content: center;
+    
+    padding-bottom: 50px;
+
+}
+
+.icon {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6, 0.1fr);
+   
+    padding-bottom: 20px;
+
+}
+
+.fa-twitter {
+    color: #FFF;
+}
+
+.fa-facebook {
+    color: #FFF;
+}
+
+.icon,
+.fa-youtube {
+    color: red;
+}
+
+.fa-instagram {
+    color: #FFF;
+}
+
+.fa-linkedin {
+    color: #FFF;
+}
+
+.fa-apple {
+    color: #FFF;
+}
+
+
+
+/* footer style start */
+
+
+
+
+
+/* Responsive style start */
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .nav-items-container,
+    .banner-container,
+    .main-section {
+        flex-direction: column;
+    }
+
+
+
+    .nav-items-container {
+        gap: 10px;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-img img {
+        width: 200%;
+    }
+
+    .main-card {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 60px;
+
+    }
+
+    .product {
+        justify-content: center;
+    }
+
+    .main-section-text {
+        margin-top: 0px;
+        margin-left: 90px;
+    }
+
+    .ligo-section {
+        grid-template-columns: repeat(3, 1fr);
+       margin-top: 200px;
+    }
+    .footer-text{
+        padding-left: 80px;
+        
+    }
+    .item-1{
+       grid-template-columns:repeat(3, 1fr) ;
+       gap: 20px;
+    }
+    .item-2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .icon{
+        grid-template-columns:repeat(3, 1fr) ;
+        gap: 10px;
+    }
+
+
+}
+
+
+
+
+/* Responsive style end */

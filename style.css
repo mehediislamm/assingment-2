@@ -206,6 +206,10 @@ body {
     padding: 10px 0px 10px 30px;
 }
 
+.product img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
 
 
 /* main section style end */
@@ -472,6 +476,12 @@ body {
 
 
 }
+
+
+
+
+    
+
 
 
 
